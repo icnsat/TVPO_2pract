@@ -1,7 +1,11 @@
-`git clone https://github.com/icnsat/TVPO_2pract.git`
+Клонирование проекта: `git clone https://github.com/icnsat/TVPO_2pract.git`
 
-create `test_arrays.py` with tests for `arrays.py`
+Создается файл `test_arrays.py` с тестами для `arrays.py`
 
-`pip install pytest` if needed
+Создание виртуального окружения: `python -m venv venv`
 
-`pytest test_arrays.py`
+Активация виртуального окружения: `. venv/Scripts/activate` (`source venv/Scripts/activate`)
+
+Установка `pytest`: `pip install pytest`
+
+Тестирование: `pytest test_arrays.py`
